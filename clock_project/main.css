@@ -1,0 +1,68 @@
+
+body{
+
+    background-color:#bf6a72;
+}
+#main-container-bg-image{
+    position: relative;
+    margin: auto;
+    height:45vw;
+    width: 45vw;
+    /*height:450px;
+    width: 450px;*/
+    
+    background-color: white;
+    background-image: url(index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hour-nedle{
+
+    position: absolute;
+    height: 125px;
+    width: 5px;
+    background-color: #f3db83;
+    top: 35.48%;
+    left: 49.5%;
+    border: 3px solid black;
+    border-radius: 20px;
+    transform-origin: bottom;
+    
+    
+
+}
+
+   
+#minute-nedle{
+
+    position: absolute;
+    height: 150px;
+    width: 3px;
+    background-color: #bf6a72;
+    top: 32.5%;
+    left: 49.799%;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform-origin: bottom;
+    
+    /* transform: rotate(40deg);*/
+
+    
+}
+#second-nedle{
+
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    background-color:#5dbcd2;
+    top: 26.7%;
+    left: 49.828%;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform-origin: bottom;
+
+  
+   /* transform: rotate(90deg);
+    transform-origin: bottom;
+    */
+}
